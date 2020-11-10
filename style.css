@@ -9,6 +9,7 @@ html, body{
     background-color: #333;
     overflow: hidden;
 }
-canvas{
+#canvas-js{
     background-color: #000;
+    height: 100%;
 }
