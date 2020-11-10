@@ -1,0 +1,104 @@
+@import url('font-awesome.css');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+body {
+  font-family: Quicksand;
+  /* background-color: #172232;*/
+  width: 100%;
+}
+
+/* Contact */
+
+div.contact {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+div.icons {
+  display: block;
+  text-align: center;
+  line-height: 1.6em;
+  margin: 2em 0 2em 0;
+}
+
+div.icons a {
+  margin: 0 0.8em 0 0.8em;
+}
+
+div.copyright p {
+  color: #22334b;
+  list-style-type: none;
+  font-size: 0.9em;
+  font-weight: bold;
+  width: 100%;
+  margin: 2em 0 2em 0;
+  text-align: center;
+}
+
+div.copyright p a {
+  text-decoration: none;
+  color: #f96e5b;
+}
+
+div.copyright p a:hover {
+  color: #3a567e;
+}
+
+/* Icons */
+
+.icon {
+  text-decoration: none;
+  color: #3a567e;
+  font-family: FontAwesome;
+  font-size: 1.5em;
+}
+
+.icon:hover {
+  color: #f96e5b;
+}
+
+.icon > .label {
+  display: none;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 768px) {
+
+  .contact {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 620px) {
+
+  .icons {
+    font-size: 0.7em;
+  }
+  .copyright {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  .icons {
+    font-size: 0.7em;
+  }
+  .copyright {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 360px) {
+
+  .icons {
+    font-size: 0.55em;
+  }
+  .copyright {
+    font-size: 0.75em;
+  }
+}
